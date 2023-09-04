@@ -1,0 +1,154 @@
+/* Utiliser le thème "VERT ET OR" */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cfcfcf; /* Couleur de fond */
+  overflow-x: hidden;
+  color: #333; /* Couleur du texte */
+  height: 150vh;
+}
+
+/* Barre de navigation en haut */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background-color: #14453A; /* Vert */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 999;
+}
+
+/* Menu hamburger pour les petits écrans */
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+/* Menu déroulant pour les petits écrans */
+.dropdown-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 999;
+}
+
+.dropdown-menu.open {
+  display: block;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.dropdown-menu ul li {
+  margin-bottom: 20px;
+}
+
+/* Conteneur personnalisé */
+.custom-container {
+  position: absolute;
+  background-color: #B19E63; /* Or */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(1, 34, 0, 0.5), 0 -2px 4px rgba(0, 0, 34, 0.5);
+  color: #333; /* Couleur du texte */
+  width: 65vw;
+  background-image: url('./assets/pierre0002.png');
+  background-size: cover;
+  overflow: hidden; /* Pour cacher le débordement du fond avec le dégradé */
+  left: 50%;
+  transform: translateX(-50%) scale(1);
+  top: 125px;
+}
+
+.custom-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ffddb0 0%, #ffe1d8 100%);
+  opacity: 0.7; /* Ajustez l'opacité selon vos préférences */
+  border-radius: 10px;
+  z-index: -1; /* Placez-le en arrière-plan */
+}
+
+.title {
+  display: block;
+  width: auto;
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #B19E63; /* Or */
+  color: #14453A;
+  text-shadow: 1px 1px rgba(100, 100, 100, 0.7);
+  text-align: center;
+  font-family: ' brush script mt'; 
+  font-size: 1em;
+  border: 1px solid black;
+  font-style: italic;
+}
+
+.background-image {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background-image: url('./assets/pierre0003.png');
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(145deg);
+}
+
+.bloc1 {
+  position: inherit;
+}
+
+@media (max-width: 768px) {
+  .custom-container {
+    width: 90%; /* Ajuste la largeur du conteneur */
+    transform: translate(-50%, 0); /* Réinitialise la translation verticale */
+    top: 125px; /* Ajuste la position verticale */
+  }
+}
+
+/* Requête média pour les écrans 4K */
+@media (min-width: 3840px) {
+  .custom-container {
+    width: 50vw; /* Ajustez la largeur pour les écrans 4K */
+    top: 150px; /* Ajustez la position verticale pour les écrans 4K */
+  }
+}

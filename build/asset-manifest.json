@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.377fd071.css",
+    "main.js": "/static/js/main.36df5650.js",
+    "static/js/787.0626a70e.chunk.js": "/static/js/787.0626a70e.chunk.js",
+    "static/media/produit0004.png": "/static/media/produit0004.e0d7a48c56195b01d25e.png",
+    "static/media/produit0001.png": "/static/media/produit0001.fac5ed7a8665f865dc61.png",
+    "static/media/produit0003.png": "/static/media/produit0003.44a90e4375f1d40a9e33.png",
+    "static/media/produit0002.jpg": "/static/media/produit0002.706c36a388121445fcbe.jpg",
+    "static/media/cp.png": "/static/media/cp.51dc03fe6222739d4267.png",
+    "static/media/pierre0003.png": "/static/media/pierre0003.ec9c124a02520ce8fb5c.png",
+    "static/media/pierre0002.png": "/static/media/pierre0002.3513a23ebf92f19283a7.png",
+    "static/media/gemme_le_fil_logo.png": "/static/media/gemme_le_fil_logo.3fdd7b15033888ccf75b.png",
+    "static/media/ups.png": "/static/media/ups.0e9378e93b53330cd211.png",
+    "static/media/mondialrelay.png": "/static/media/mondialrelay.693f9825b7e0b8f2f12b.png",
+    "index.html": "/index.html",
+    "main.377fd071.css.map": "/static/css/main.377fd071.css.map",
+    "main.36df5650.js.map": "/static/js/main.36df5650.js.map",
+    "787.0626a70e.chunk.js.map": "/static/js/787.0626a70e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.377fd071.css",
+    "static/js/main.36df5650.js"
+  ]
+}
