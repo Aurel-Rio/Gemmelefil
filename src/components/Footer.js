@@ -52,7 +52,7 @@ const Footer = () => {
   return (
     <PageContainer>
       <FooterContainer>
-        <FooterText>© 2023 Servant Aurélien. Tous droits réservés.</FooterText>
+        <FooterText>Developed by Servant Aurélien. © 2023 Gemme le fil - Tous droits réservés.</FooterText>
         <SocialIcons>
           <a
             href="https://www.linkedin.com/in/aur%C3%A9lien-servant-a85218217/"

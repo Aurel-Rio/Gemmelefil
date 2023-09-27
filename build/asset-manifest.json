@@ -1,12 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.377fd071.css",
-    "main.js": "/static/js/main.36df5650.js",
+    "main.css": "/static/css/main.599f4ad2.css",
+    "main.js": "/static/js/main.ac9677c4.js",
     "static/js/787.0626a70e.chunk.js": "/static/js/787.0626a70e.chunk.js",
-    "static/media/produit0004.png": "/static/media/produit0004.e0d7a48c56195b01d25e.png",
-    "static/media/produit0001.png": "/static/media/produit0001.fac5ed7a8665f865dc61.png",
-    "static/media/produit0003.png": "/static/media/produit0003.44a90e4375f1d40a9e33.png",
-    "static/media/produit0002.jpg": "/static/media/produit0002.706c36a388121445fcbe.jpg",
+    "static/media/Collier apatie 39 €.png": "/static/media/Collier apatie 39 €.7e350bd30b7f14c9fad8.png",
+    "static/media/Collier malachite et pétales 39 €.png": "/static/media/Collier malachite et pétales 39 €.7067a655d1093348e0b6.png",
+    "static/media/Collier Mandala et estampe 31 €.JPG": "/static/media/Collier Mandala et estampe 31 €.b7ce3bd71bec76d5d807.JPG",
+    "static/media/Collier écusson et jaspe paysage 34 €.JPG": "/static/media/Collier écusson et jaspe paysage 34 €.4a1d765f852c80fcff82.JPG",
+    "static/media/Boucles d'oreilles turquoise 24 €.jpg": "/static/media/Boucles d'oreilles turquoise 24 €.fd69d91f84b260ee452f.jpg",
+    "static/media/Boucles d'oreilles sablier 18 €.jpg": "/static/media/Boucles d'oreilles sablier 18 €.f193fe0754fa9245b586.jpg",
+    "static/media/Boucles d'oreilles aigue marine 18 €.jpg": "/static/media/Boucles d'oreilles aigue marine 18 €.741ff06b399b010e0d49.jpg",
+    "static/media/Boucles d'oreilles apatite 12 €.JPG": "/static/media/Boucles d'oreilles apatite 12 €.922f86a3b297a3ffc7ae.JPG",
+    "static/media/Boucles d'oreilles agate bleue 24 €.jpg": "/static/media/Boucles d'oreilles agate bleue 24 €.f94cf3ce6d2c5dbe1585.jpg",
+    "static/media/Manchette apatie 37 €.JPG": "/static/media/Manchette apatie 37 €.1606bd2db916c1522d2b.JPG",
+    "static/media/Collier angélique 42 €.JPG": "/static/media/Collier angélique 42 €.9b3f48376a388e349178.JPG",
+    "static/media/Collier donut et macramé 41 €.jpg": "/static/media/Collier donut et macramé 41 €.b1cedc102367f1796ad1.jpg",
+    "static/media/Collier sodalite 45 €.jpg": "/static/media/Collier sodalite 45 €.788cdc77e0edc52c6f4a.jpg",
+    "static/media/Collier Lapis Lazuli 49 €.JPG": "/static/media/Collier Lapis Lazuli 49 €.0ec6227f87ce75f5f254.JPG",
     "static/media/cp.png": "/static/media/cp.51dc03fe6222739d4267.png",
     "static/media/pierre0003.png": "/static/media/pierre0003.ec9c124a02520ce8fb5c.png",
     "static/media/pierre0002.png": "/static/media/pierre0002.3513a23ebf92f19283a7.png",
@@ -14,12 +24,12 @@
     "static/media/ups.png": "/static/media/ups.0e9378e93b53330cd211.png",
     "static/media/mondialrelay.png": "/static/media/mondialrelay.693f9825b7e0b8f2f12b.png",
     "index.html": "/index.html",
-    "main.377fd071.css.map": "/static/css/main.377fd071.css.map",
-    "main.36df5650.js.map": "/static/js/main.36df5650.js.map",
+    "main.599f4ad2.css.map": "/static/css/main.599f4ad2.css.map",
+    "main.ac9677c4.js.map": "/static/js/main.ac9677c4.js.map",
     "787.0626a70e.chunk.js.map": "/static/js/787.0626a70e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.377fd071.css",
-    "static/js/main.36df5650.js"
+    "static/css/main.599f4ad2.css",
+    "static/js/main.ac9677c4.js"
   ]
 }

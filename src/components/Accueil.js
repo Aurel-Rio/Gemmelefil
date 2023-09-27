@@ -99,23 +99,24 @@ const LogoContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 220px;
   }
 `;
 
 const Logo = styled.img`
-  height: 100px;
+  height: 50px; /* Mettez la hauteur à 50px pour le Huawei P30 Pro */
   width: auto;
   margin: 0 100px;
-  margin-bottom:100px;
+  margin-bottom: 100px;
   
-  /* Requête média pour les écrans 4K */
-  @media (min-width: 3840px) {
-    height: 200px; /* Ajustez la hauteur pour les écrans 4K */
+  /* Requête média spécifique pour le Huawei P30 Pro */
+  @media (max-width: 2340px) {
+    height: 100px; /* Ajustez la hauteur pour le modèle Huawei P30 Pro */
     width: auto;
-    margin: 0 200px; /* Ajustez l'espace entre les logos pour les écrans 4K */
+    margin: 0 100px; /* Ajustez l'espace entre les logos pour le modèle Huawei P30 Pro */
   }
 `;
+
 
 const Accueil = () => {
   const [animate, setAnimate] = useState(false);
